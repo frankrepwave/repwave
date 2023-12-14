@@ -1,0 +1,99 @@
+you are a smart AI that can analyze all transcripts specific for B2B sales managers and their conversation doing a one on one with their AE reps. Got it?@
+great before going so, let me send you company defitions or key words you might come across the transcript. See below:
+
+Company definition:
+
+QBR: Quarterly Business Review
+
+MCV: Monthly contract value
+
+Burn list: A list of actions one once to do and check off
+
+CRW: Contract re-writes. Re-negotiating current contract end date to sign a new start date in advance of the original contract's start date to secure the renewal in advance. Say client has a 12 month subscription from Feb 2023 to Feb 2024, contract rewrite would be negotiation with the client to sign the renewal for Dec 2024 to Dec 2025 and give 2 months of credit. If rep negotiates growth on the deal, the MCV is higher even with the credit.   
+
+CKIP: Custom Key Initiative Plan. Reps run CKIPs with their clients to understand where they can add more value on selling their services
+
+Other Environment context: Nayla is the Sales Director at an HR research advisory firm that provides leaders with practical information and applicable skills through comprehensive training resources and leadership development programs. Client pay a membership to access advisors and the McLean research portal/content.
+
+Nayla is Manager
+
+Edwin is the account manager with sales targets on new accounts, growth on current accounts managed, and servicing current accounts.@
+great before doing so, see here the agenda the sales manager had in mind for the meeting:
+
+Agenda for the meeting (30-45 minutes)
+
+Forecast review - walk me through your gap for December?
+
+
+How are your accounts looking for Q3 and Q4
+
+Risks?
+
+Quota discussion.
+
+Want to talk about MCV and revenue for the month.
+
+Rep should focus on deals they have and talk through strategy instead of the above details.
+
+Everything above should be 10-15 minutes.
+
+Talk about how last week went
+
+
+
+From our burn list last week you said you wanted to prep all your QBRs for this week - how’s it been, did you accomplish everything
+
+Talk about the prospect called: Salters- 
+
+Talk about current customer: Disney - Disney is healthy and engaged
+
+Discuss activity:
+
+- Low or high?
+- what happened there?
+- What to improve?
+
+Plan for this week 
+
+- I’d also like the rep to focus on your 6 month check ins and asks at 90 days before renewal
+
+- all those renewals should be having growth conversations, should be invoiced, or we should be strategizing on if at risk
+
+Also look at Q4s, identify CRW opps
+
+
+Specifically look at single-year terms - highest risk
+50 in the hour - dials and emails
+
+Anything else?
+
+How is it all going? How are you feeling?@
+great so can you confirm you have the agenda and the company definitions so you can better analyze the transcript I will upload?@
+great, before analyzing the transcript. Here is the expected outline summary the manager wants for analysis of the transcript:
+
+EXPECTED OUTLINE AFTER THE MEETING FOR THE SUMMARY:
+
+What are the rep accounted for the next week?L
+
+What are the rep action items to do?:
+
+What are my action items?:
+
+Deal discussion summary and next steps and each deal $ value forecast (split this for each deal discussed):
+
+General call summary:
+
+General Manager feedback:@
+great provide the summary as the manager wanted with the following transcript:<transcript>@
+make it more detailed please@
+more detailed summary and add a section at the end on what the manager can do better to lead the one on one@
+this was great. can you give a more detailed summary and include dates of expectations and at the end add a mutual agreed plan action item for both the rep and manage with timeline expectations based on the conversation@
+great, can you make me a checklist for what the rep needs to get done?@
+wait, did the manager ask the rep to book time tomorrow with them for a prep call for a strategy of a certain account?@
+can you export a csv of the deal name, account health, amount forecast, renewal date@
+that is good, use the transcript provided to fill it in@
+anything else that is important from the transcript that I missed for the summary?@
+can you add these to the summary please and be detailed with dates, amounts and names if applicable@
+great, based on all the information provided. Give me a performance improvement plan for edwin for the next one on one next week@
+can you be more detailed with this performance improvement plan and give the why it is important@
+great, can you write this as if Nayla the manager is giving a personal improvement plan for Edwin in the first person@
