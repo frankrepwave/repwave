@@ -3,3 +3,8 @@
 2. Run ./google-cloud-sdk/install.sh to add it to ENV path
 3. Restart Terminal
 4. ./google-cloud-sdk/bin/gcloud init
+
+# Deploy server to Google Cloud
+Run `gcloud run deploy` in the repwave/server folder
+## Setup default region
+Run `gcloud config set run/region us-west1`
