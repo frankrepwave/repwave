@@ -1,0 +1,17 @@
+{
+    "org_name": "Test Company 1",
+    "outcomes": [
+        "What are the rep accounted for the next week?",
+        "What are the rep action items to do?",
+        "What are my action items?",
+        "Deal discussion summary and next steps and each deal $ value forecast (split this for each deal discussed)?",
+        "General call summary?"
+    ],
+    "glossary": {
+        "QBR": "Quarterly Business Review",
+        "MCV": "Monthly contract value",
+        "Burn list": "A list of actions one once to do and check off",
+        "CRW": "Contract re-writes. Re-negotiating current contract end date to sign a new start date in advance of the original contract's start date to secure the renewal in advance. Say client has a 12 month subscription from Feb 2023 to Feb 2024, contract rewrite would be negotiation with the client to sign the renewal for Dec 2024 to Dec 2025 and give 2 months of credit. If rep negotiates growth on the deal, the MCV is higher even with the credit.",
+        "CKIP": "Custom Key Initiative Plan. Reps run CKIPs with their clients to understand where they can add more value on selling their services"
+    }
+}

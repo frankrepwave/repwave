@@ -1,1 +1,4 @@
 server/certs/keys.json
+.venv/
+__pycache__/
+server/__pycache__/
