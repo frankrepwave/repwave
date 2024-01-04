@@ -75,6 +75,19 @@
         <div id="main" style="padding: 0px; width: webkit-calc(100% - 100px);">
             <h1>Deal Room</h1>
         </div>
+        <form id="form" onsubmit="return generateMeetingSummary(this)">                                       
+            <input name="firstName" type="text" placeholder="First Name" required>  
+            <input name="lastName" type="text" placeholder="Last Name" required>  
+            <label for="template">Choose template:</label>
+            <select id="template" name="template" size="=2">
+                <option value="standardTemplate">Standard Template</option>
+                <option value="quickTemplate">Quick Template</option>
+                <option value="performanceTemplate">Performance Template</option>
+                <option value="longVisionTemplate">Long Vision Template</option>
+            </select><br><br>                                     
+            <textarea  name="additionalInformation" cols="30" rows="10" placeholder="Additional Information.." required></textarea>
+            <button type="submit">Generate Summary</button>
+        </form>
     </div>
 
 </body>

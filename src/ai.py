@@ -6,7 +6,7 @@ from .model.MeetingTemplate import MeetingTemplate
 
 
 def get_openai_client() -> OpenAI:
-    with open('server/certs/keys.json', 'r') as f:
+    with open('../server/certs/keys.json', 'r') as f:
         key = json.load(f)['openai']
         return OpenAI(api_key=key)
     
@@ -31,8 +31,7 @@ def process_meeting_summary(transcript_filepath: str, meeting_template: MeetingT
         temperature=0,
         top_p=1,
         frequency_penalty=0,
-        presence_penalty=0,
-        max_tokens=20000
+        presence_penalty=0
     )
 
     chat_response = response.choices[0].message.content.strip()
