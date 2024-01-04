@@ -10,9 +10,9 @@ class MeetingTemplate:
 
     def generate_prompt(self, additional_information: str=None) -> str:
         outcomes_str = '\n'.join(self.outcomes)
-        glossary_terms_str = '\n'.join(self.glossary)
+        glossary_terms_str = '\n'.join([f'{term}: {self.glossary[term]}'for term in self.glossary])
         return f"""
-You will be provided with a meeting transcript, and your task is to answer the following:
+You will be provided with a meeting transcript, and your task is to summarize and answer the following:
 {outcomes_str}
 Here are some company specific definitions:
 {glossary_terms_str}
