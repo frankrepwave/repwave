@@ -3,6 +3,8 @@ import os
 
 from flask import Flask, render_template, request, send_from_directory
 from markupsafe import escape
+
+import src.dao as DAO
 from src.ai import process_meeting_summary
 from src.model.MeetingTemplate import MeetingTemplate
 
@@ -43,6 +45,13 @@ def legacy():
 @app.get("/api/helloworld")
 def hello():
     return "hellow world"
+
+@app.get("/api/get_all_users_for_manager")
+def get_all_users_for_manager():
+    company_id = request.args.get('company_id')
+    manager_user_id = request.args.get('user_id')
+    all_users = DAO.get_all_users_for_manager(company_id=company_id, manager_user_id=manager_user_id)
+    return all_users
 
 @app.get("/api/generate_meeting_summary")
 def generate_meeting_summary():
