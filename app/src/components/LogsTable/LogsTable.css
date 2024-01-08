@@ -1,0 +1,111 @@
+.logs-table-container {
+    width: 1285px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--Gray-200, #EAECF0);
+    background: var(--White, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 1px 3px 0px rgba(16, 24, 40, 0.10);
+  }
+
+  .logs-title{
+    margin-left: 10px;
+    color: var(--Gray-900, #101828);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+
+  }
+  
+  .logs-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+
+table tr:nth-child(odd) {
+  background-color: white;
+  border-bottom: 1px solid var(--Gray-200, #EAECF0);
+
+}
+
+table tr:nth-child(even) {
+  background: var(--Gray-50, #F9FAFB);
+  border-bottom: 1px solid var(--Gray-200, #EAECF0);
+
+}
+  
+  .logs-table th, .logs-table td {
+    padding: 12px; 
+  }
+  
+  .logs-table th {
+    color: var(--Gray-500, #667085);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; 
+      }
+
+  .logs-table td {
+    vertical-align:middle;
+  }
+  
+  .profile-pic {
+    border-radius: 50%; 
+    margin-right: 8px; 
+    width: 40px;
+    height: 40px;
+  }
+
+  .name-td {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    border-radius: 6px;
+    border: 1px solid var(--Gray-300, #D0D5DD);
+  }
+    
+  .edit-button, .delete-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+  }
+
+  .ai-summary-button{
+    border: none;
+    border-radius: 20px;
+    background: var(--Brand-100, #F4EBFF);
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+
+  }
+  
+  .ai-summary-button:hover, .edit-button:hover, .delete-button:hover {
+    background-color: #9e77ED; 
+    border-radius: 20px;
+  }
+
+
+  
+  

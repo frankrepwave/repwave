@@ -1,0 +1,64 @@
+.ai-summary {
+    position:fixed; 
+    right: -100%; 
+    width: 80%; 
+    height: 100%;
+    transition: right 0.5s ease; /*currently not working because the component doesnt render until click*/
+    background: white;
+    z-index: 1000; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    gap: 64px;/*Might delete this later*/
+    overflow: hidden;
+
+  }
+
+  .ai-summary-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 999; 
+    display:block; 
+  }
+  
+  .ai-summary.open {
+    right:10%; 
+}
+
+.AI-container{
+    flex-grow: 1; 
+    overflow-y: auto; 
+    width: 80%; 
+    padding: 80px 40px;   
+}
+  
+  .header{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white ;
+
+  }
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
